@@ -1,0 +1,9 @@
+public class NameWithoutSemiColon {
+
+	public static void main(String[] args) {
+		if (System.out.printf("Nitish") == null) {
+
+		}
+	}
+
+}
