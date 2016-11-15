@@ -1,0 +1,21 @@
+public class Xpattern1 {
+
+	public static void main(String[] args) {
+		for (int row = 1; row <= 5; row++) {
+			for (int col = 1; col <= 5; col++) {
+				if ((row == col) || (row == 1 && col == 5)
+						|| (row == 2 && col == 4) || (row == 4 && col == 2)
+						|| (row == 5 && col == 1)) {
+					System.out.print("*");
+				} else if ((row == 2 && col == 5) || (row == 3 && col == 4)
+						|| (row == 3 && col == 5) || (row == 4 && col == 5)) {
+					System.out.print(" ");
+				} else {
+					System.out.print("_");
+				}
+			}
+			System.out.println();
+		}
+
+	}
+}
